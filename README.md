@@ -1,7 +1,7 @@
 # Stellaris-Additional-Console-Commands-Spawn-Systems
 Adds new solar system at some random location with your borders.  
 
-List of Systems and commands: 
+List of Systems and commands:  
 Vultaum: event repeatableprecursor.1   
 Yuht: event repeatableprecursor.2   
 Fen Habbanis: event repeatableprecursor.3   
