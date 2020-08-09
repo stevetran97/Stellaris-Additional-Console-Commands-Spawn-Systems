@@ -1,5 +1,5 @@
 # Stellaris-Additional-Console-Commands-Spawn-Systems
-Adds new solar system at some random location with your borders.  
+Adds new solar system at some random location with your borders.  \n\n
 
 List of Systems and commands: 
 Vultaum: event repeatableprecursor.1 
