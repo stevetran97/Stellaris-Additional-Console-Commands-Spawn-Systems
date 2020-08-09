@@ -1,0 +1,231 @@
+########################
+#
+# System Spawning Events
+#
+# Written by Steve Tran
+#
+########################
+
+#Distar Event Systems
+##############################################################################################################################################
+#List of commands
+#"distar_sealed_1_1": repeatabledistar.1
+#"distar_sealed_1_2": repeatabledistar.2
+#"vechtar_zavonia_system": repeatabledistar.3
+#"star_crazy_fallback_system": repeatabledistar.4
+#distantstars_init_01: repeatabledistar.5
+#distantstars_init_03: repeatabledistar.6
+#distantstars_init_01b: repeatabledistar.7
+#distantstars_init_02b: repeatabledistar.8
+#distantstars_init_04: repeatabledistar.9
+#distantstars_init_03b: repeatabledistar.10
+#distantstars_init_05: repeatabledistar.11
+#distantstars_init_04b: repeatabledistar.12
+
+
+namespace = repeatabledistar
+
+# Distar1_1 Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatabledistar.1
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = "distar_sealed_1_1"
+			}
+		}
+	}
+}
+# Distar1_2 Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatabledistar.2
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = "distar_sealed_1_2"
+			}
+		}
+	}
+}
+# "vechtar_zavonia_system" Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatabledistar.3
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = "vechtar_zavonia_system"
+			}
+		}
+	}
+}
+# "star_crazy_fallback_system" Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatabledistar.4
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = "star_crazy_fallback_system"
+			}
+		}
+	}
+}
+# distantstars_init_01 Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatabledistar.5
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = distantstars_init_01
+			}
+		}
+	}
+}
+# distantstars_init_03 Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatabledistar.6
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = distantstars_init_03
+			}
+		}
+	}
+}
+# distantstars_init_01b Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatabledistar.7
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = distantstars_init_01b
+			}
+		}
+	}
+}
+# distantstars_init_01b Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatabledistar.8
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = distantstars_init_02b
+			}
+		}
+	}
+}
+# distantstars_init_04 Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatabledistar.9
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = distantstars_init_04
+			}
+		}
+	}
+}
+# distantstars_init_03b Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatabledistar.10
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = distantstars_init_03b
+			}
+		}
+	}
+}
+# distantstars_init_05 Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatabledistar.11
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = distantstars_init_05
+			}
+		}
+	}
+}
+# distantstars_init_04b Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatabledistar.12
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = distantstars_init_04b
+			}
+		}
+	}
+}
