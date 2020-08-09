@@ -1,0 +1,171 @@
+########################
+#
+# System Spawning Events
+#
+# Written by Steve Tran
+#
+########################
+
+#Precursor Event Systems
+##############################################################################################################################################
+#List of commands
+#Vultaum: event repeatableprecursor.1
+#Yuht: event repeatableprecursor.2
+#Fen Habbanis: event repeatableprecursor.3
+#Cybrex: event repeatableprecursor.4
+#Irass: event repeatableprecursor.5
+
+
+namespace = repeatableprecursor
+
+# Vultaum Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatableprecursor.1
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = "vultaumar_system"
+			}
+		}
+	}
+}
+
+# Yuht Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatableprecursor.2
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = "yuhtaan_system"
+			}
+		}
+	}
+}
+
+# Fen Habbanis Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatableprecursor.3
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = "fen_habbanis_system"
+			}
+		}
+	}
+}
+
+# irass Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatableprecursor.irass
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = "irass_system"
+			}
+		}
+	}
+}
+
+# Cybrex Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatableprecursor.4
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = "cybrex_system"
+			}
+		}
+	}
+}
+
+# Vultaum Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatableprecursor.5
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = "vultaumar_system"
+			}
+		}
+	}
+}
+
+
+#Distar Event Systems
+##############################################################################################################################################
+#List of commands
+#Vultaum: event repeatableprecursor.1
+#Yuht: event repeatableprecursor.2
+#Fen Habbanis: event repeatableprecursor.3
+#Cybrex: event repeatableprecursor.4
+#Irass: event repeatableprecursor.5
+
+
+# Distar1_1 Home System Spawned (HIDDEN)
+country_event = {
+	id = repeatabledistar.1
+	#hide_window = yes
+	is_triggered_only = yes
+
+	immediate = {
+		random_system_within_border = {
+			spawn_system = {
+				min_distance = 10
+				max_distance = 30
+				max_jumps = 0
+				initializer = "vultaumar_system"
+			}
+		}
+	}
+}
+
+
+
+#"distar_sealed_1_1"
+#"distar_sealed_1_2"
+#"vechtar_zavonia_system"
+#"star_crazy_fallback_system"
+#distantstars_init_01
+#distantstars_init_03
+#distantstars_init_01b
+#distantstars_init_02b
+#distantstars_init_04
+#distantstars_init_03b
+#distantstars_init_05
+#distantstars_init_04b
