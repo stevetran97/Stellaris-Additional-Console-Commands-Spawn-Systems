@@ -2,11 +2,11 @@
 Adds new solar system at some random location with your borders.  
 
 List of Systems and commands: 
-Vultaum: event repeatableprecursor.1 
-Yuht: event repeatableprecursor.2 
-Fen Habbanis: event repeatableprecursor.3 
-Cybrex: event repeatableprecursor.4 
-Irass: event repeatableprecursor.5 
+Vultaum: event repeatableprecursor.1   
+Yuht: event repeatableprecursor.2   
+Fen Habbanis: event repeatableprecursor.3   
+Cybrex: event repeatableprecursor.4   
+Irass: event repeatableprecursor.5   
 "distar_sealed_1_1": event repeatabledistar.1 
 "distar_sealed_1_2": event repeatabledistar.2 
 "vechtar_zavonia_system": event repeatabledistar.3 
